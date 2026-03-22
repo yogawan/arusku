@@ -1,0 +1,7 @@
+services:
+  app:
+    image: golang:1.25
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: go run ./cmd/belajar-golang

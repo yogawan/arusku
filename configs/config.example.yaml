@@ -1,0 +1,4 @@
+app:
+  name: belajar-golang
+  env: development
+  port: 8080
